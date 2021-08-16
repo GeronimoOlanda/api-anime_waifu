@@ -1,0 +1,14 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+img{
+    margin-top: 10%;
+    margin-left: 31%;
+    margin-bottom: 10%;
+    width: 30em;
+    border-radius: 50px;
+    box-shadow: 3px 5px  #555454;
+}
