@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Animes from '../../Animes';
-
+import { Input } from '../../Input';
 let Home = () => {
   const [animes, setAnimes] = useState({});
   const [animes2, setAnimes2] = useState([]);
@@ -28,7 +28,12 @@ let Home = () => {
     setAnimes2(Object.keys(data).map((key) => [String(key), data[key]]));
   };
 
-  return <Animes animes2={animes2} />;
+  return (
+    <>
+      <Input />
+      <Animes animes2={animes2} />
+    </>
+  );
 };
 
 export default Home;

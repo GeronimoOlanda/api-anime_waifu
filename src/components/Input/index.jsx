@@ -1,7 +1,8 @@
 import React from 'react';
-const Input = () => {
+import './index.css';
+export const Input = () => {
   return (
-    <div>
+    <div className="input-data">
       <input type="search" name="pesquisar" id="pesquisar" placeholder="Digite o que deseja" />
     </div>
   );
