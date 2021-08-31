@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Animes from '../../Animes';
 import { Input } from '../../Input';
+import { Button } from '../../Button';
+
 let Home = () => {
   const [animes, setAnimes] = useState({});
   const [animes2, setAnimes2] = useState([]);
@@ -31,6 +33,8 @@ let Home = () => {
   return (
     <>
       <Input />
+      <Button />
+
       <Animes animes2={animes2} />
     </>
   );
