@@ -5,4 +5,12 @@ button{
   width: 100px;
   padding: 16px;
   cursor: pointer;
+  transition: 0.2s ease all;
+}
+button:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.btn-style{
+  margin-top: 1%;
+  margin-left: 46%;
 }
